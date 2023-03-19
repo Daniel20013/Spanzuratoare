@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(232, 244, 244);
+}
+
+.cntainer {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 50rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+#title {
+    position: relative;
+    left: 1em;
+}
+
+#readTheWord {
+    position: relative;
+    left: 1em;
+}
+
+#start {
+    position: relative;
+    left: 1em;
+    background-color: aqua;
+    border-radius: 3px;
+}
+
+#inputLetter {
+    position: absolute;
+    top: 4em;
+    left: 1em;
+    display: none;
+}
+
+#send {
+    position: absolute;
+    top: 4em;
+    left: 15em;
+    background-color: aqua;
+    border-radius: 3px;
+    display: none;
+}
+
+#underlines {
+    position: absolute;
+    left: 1em;
+    top: 6.5em;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#underlines p {
+    margin-right: 1em;
+    left: 1em;
+}
+
+#hangman0 {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hangman1 {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hangman2 {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hangman3 {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hangman4 {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hangman5 {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hangman6 {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
