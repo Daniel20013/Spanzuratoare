@@ -45,25 +45,8 @@ function searchInTheWord() {
         }
         if (i == n - 1 && wrong == false) {
             ++mistakes;
-            if (mistakes == 1) {
-                const hangman1 = document.querySelector("#hangman1");
-                hangman1.style.display = "block";
-            } else if (mistakes == 2) {
-                const hangman2 = document.querySelector("#hangman2");
-                hangman2.style.display = "block";
-            } else if (mistakes == 3) {
-                const hangman3 = document.querySelector("#hangman3");
-                hangman3.style.display = "block";
-            } else if (mistakes == 4) {
-                const hangman4 = document.querySelector("#hangman4");
-                hangman4.style.display = "block";
-            } else if (mistakes == 5) {
-                const hangman5 = document.querySelector("#hangman5");
-                hangman5.style.display = "block";
-            } else if (mistakes == 6) {
-                const hangman6 = document.querySelector("#hangman6");
-                hangman6.style.display = "block";
-            }
+            const hangman = document.querySelectorAll("[id^='hangman']");
+            hangman[mistakes].style.display = "block";
         }
         if (mistakes === 6) {
             alert("Ai pierdut! Cuvântul era: " + word);
